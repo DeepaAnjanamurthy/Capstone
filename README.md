@@ -84,7 +84,7 @@ The currency pairs included in this dataset are:
 |`Close`|`float`|The volume of the currency traded on that day.||
 
 ### Data Source <a class="anchor" id="data-source"></a>
-Dataset can be found on Kaggle [Here](https://www.kaggle.com/datasets/pavankrishnanarne/daily-currency-exchange-rates-2008-present)
+The dataset can be found on Kaggle [Here](https://www.kaggle.com/datasets/pavankrishnanarne/daily-currency-exchange-rates-2008-present)
 
 ### Data Coverage <a class="anchor" id="data-coverage"></a>
 - Temporal Coverage 
@@ -95,7 +95,7 @@ Dataset can be found on Kaggle [Here](https://www.kaggle.com/datasets/pavankrish
 
 ### Data Cleaning / Preprocessing <a class="anchor" id="cleaning"></a>
 
-We will clean and preprocess the data to handle missing values, outliers, and normalize the data for better model performance.
+This step will clean and preprocess the data to handle missing values, outliers, and normalize the data for better model performance. This will be an iterative process through the sprints.
 
 ### Exploratory Data Analysis <a class="anchor" id="eda"></a>
 - Handling missing values

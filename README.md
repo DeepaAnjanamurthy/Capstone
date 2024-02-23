@@ -60,16 +60,16 @@ Additionally, policymakers and economists can use these insights to better under
 This dataset offers a comprehensive view of daily currency exchange rates, from 2008 to 2023. Currency rates can be affected by various factors, including interest rates, inflation, political instability, economic performance, and global market developments. Understanding these rates over time can provide valuable insights into economic trends, market behaviors, and the impacts of global events on currency values.
 
 The currency pairs included in this dataset are:
-USD to INR (INR=X)
-USD to JPY (JPY=X)
-USD to EUR (EUR=X)
-USD to GBP (GBP=X)
-USD to AUD (AUD=X)
-USD to CAD (CAD=X)
-USD to CHF (CHF=X)
-USD to CNY (CNY=X)
-USD to HKD (HKD=X)
-USD to SGD (SGD=X)
+- USD to INR (INR=X)
+- USD to JPY (JPY=X)
+- USD to EUR (EUR=X)
+- USD to GBP (GBP=X)
+- USD to AUD (AUD=X)
+- USD to CAD (CAD=X)
+- USD to CHF (CHF=X)
+- USD to CNY (CNY=X)
+- USD to HKD (HKD=X)
+- USD to SGD (SGD=X)
 
 ### Data Dictionary <a class="anchor" id="data-dict"></a>
 |Column|Data Type|Description|Remarks/Examples|

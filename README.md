@@ -60,16 +60,16 @@ Additionally, policymakers and economists can use these insights to better under
 This dataset offers a comprehensive view of daily currency exchange rates, from 2008 to 2023. Currency rates can be affected by various factors, including interest rates, inflation, political instability, economic performance, and global market developments. Understanding these rates over time can provide valuable insights into economic trends, market behaviors, and the impacts of global events on currency values.
 
 The currency pairs included in this dataset are:
-USD to INR (INR=X)
-USD to JPY (JPY=X)
-USD to EUR (EUR=X)
-USD to GBP (GBP=X)
-USD to AUD (AUD=X)
-USD to CAD (CAD=X)
-USD to CHF (CHF=X)
-USD to CNY (CNY=X)
-USD to HKD (HKD=X)
-USD to SGD (SGD=X)
+- USD to INR (INR=X)
+- USD to JPY (JPY=X)
+- USD to EUR (EUR=X)
+- USD to GBP (GBP=X)
+- USD to AUD (AUD=X)
+- USD to CAD (CAD=X)
+- USD to CHF (CHF=X)
+- USD to CNY (CNY=X)
+- USD to HKD (HKD=X)
+- USD to SGD (SGD=X)
 
 ### Data Dictionary <a class="anchor" id="data-dict"></a>
 |Column|Data Type|Description|Remarks/Examples|
@@ -84,7 +84,7 @@ USD to SGD (SGD=X)
 |`Close`|`float`|The volume of the currency traded on that day.||
 
 ### Data Source <a class="anchor" id="data-source"></a>
-Dataset can be found on Kaggle [Here](https://www.kaggle.com/datasets/pavankrishnanarne/daily-currency-exchange-rates-2008-present)
+The dataset can be found on Kaggle [Here](https://www.kaggle.com/datasets/pavankrishnanarne/daily-currency-exchange-rates-2008-present)
 
 ### Data Coverage <a class="anchor" id="data-coverage"></a>
 - Temporal Coverage 
@@ -95,7 +95,7 @@ Dataset can be found on Kaggle [Here](https://www.kaggle.com/datasets/pavankrish
 
 ### Data Cleaning / Preprocessing <a class="anchor" id="cleaning"></a>
 
-We will clean and preprocess the data to handle missing values, outliers, and normalize the data for better model performance.
+This step will clean and preprocess the data to handle missing values, outliers, and normalize the data for better model performance. This will be an iterative process through the sprints.
 
 ### Exploratory Data Analysis <a class="anchor" id="eda"></a>
 - Handling missing values

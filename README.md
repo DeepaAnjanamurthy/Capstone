@@ -92,6 +92,9 @@ The dataset can be found on Kaggle [Here](https://www.kaggle.com/datasets/pavank
     - Ending Date:  31 Jul 2023
 
 ## Project Roadmap / Framework  <a class="anchor" id="roadmap"></a>
+- Baseline modeling
+- Non-linear modeling
+- Advanced modeling
 
 ### Data Cleaning / Preprocessing <a class="anchor" id="cleaning"></a>
 
@@ -103,23 +106,34 @@ This step will clean and preprocess the data to handle missing values, outliers,
 - Removing unhelpful columns from the dataset
 
 ### Major Findings 
+Upcoming in future sprint
 
 ### Feature Engineering <a class="anchor" id="engine"></a>
+Upcoming in future sprint
 
 ### Model Development <a class="anchor" id="develop"></a>
+Upcoming in future sprint
 
 ### Model Interpretation <a class="anchor" id="interpret"></a>
+Upcoming in future sprint
 
 ### Feature Selection <a class="anchor" id="select"></a>
+Upcoming in future sprint
 
 ### Model Deployment <a class="anchor" id="deploy"></a>
+Upcoming in future sprint
 
 ##  Conclusion  <a class="anchor" id="conclusion"></a>
+Upcoming in future sprint
 
 ### Insights & Findings <a class="anchor" id="insights"></a>
+Upcoming in future sprint
 
 ### Key Takeaways <a class="anchor" id="takeaways"></a>
+Upcoming in future sprint
 
 ### Future Directions <a class="anchor" id="nextsteps"></a>
+Upcoming in future sprint
 
 ### Final Thoughts <a class="anchor" id="thoughts"></a>
+Upcoming in future sprint

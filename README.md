@@ -133,7 +133,8 @@ Upcoming in future sprint
 Upcoming in future sprint
 
 ### Future Directions <a class="anchor" id="nextsteps"></a>
-Upcoming in future sprint
+- To explore other currency pair in the dataset to find patterns and trends to explore similarities
+- To explore models used in the industry to gain insight into possible comparison in approach to exchange rate predictions
 
 ### Final Thoughts <a class="anchor" id="thoughts"></a>
 Upcoming in future sprint

@@ -102,14 +102,17 @@ This step will clean and preprocess the data to handle missing values, outliers,
 - Appropriate datatype selection for the columns
 - Removing unhelpful columns from the dataset
 
-### Major Findings 
-Upcoming in future sprint
-
 ### Feature Engineering <a class="anchor" id="engine"></a>
 Time Series
     - Percent Change - captured percent change between each day's Close rates for trend detection, volatility analysis.
 Decision Trees and Random Forest
     - Moving Average - 5-Day, 10-Day and 50-Day Moving Average features were engineered to capture short-term, intermediate-term and long-term trends.
+
+### Feature Selection <a class="anchor" id="select"></a>
+Features selected for analysis for respective models:
+- Polynomial Regression (baseline model): Target feature was 'Close', rest of the features in the dataset were not considered for analysis.
+- Time Series - Again, target variable was 'Close' as it changed over a period of 'Time' (the column set as index for the analysis)
+- Decision Trees and Random Forest - Aside from a few engineered features for moving averages, target variable was still 'Close' rates, but 'Open', 'High' and 'Low' features in the original dataset were used for the analysis.
 
 ### Model Development <a class="anchor" id="develop"></a>
 - Baseline modeling
@@ -127,11 +130,6 @@ For advanced modeling, Decision Trees and Random Forest models were explored to 
 |`SARIMA`|``|`%`|
 |`Decision Tree`|``|`%`|
 |`Random Forest`|``|`%`|
-
-### Feature Selection <a class="anchor" id="select"></a>
-Features engineered during the analysis for respective models:
-- Time Series - percent change, moving average
-- Decision Trees and Random Forest - Moving average (5-day, 10-day and 50-day moving average)
 
 ##  Conclusion  <a class="anchor" id="conclusion"></a>
 The following sections give a all-round findings and key takeaways of this analysis.

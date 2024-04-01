@@ -19,8 +19,7 @@
     - [Feature Engineering](#engine)
     - [Feature Selection](#select)
     - [Model Development](#develop)
-    - [Model Interpretation](#interpret)
-    - [Model Deployment](#deploy) 
+    - [Model Evaluation](#eval) 
     - [User Interface Development](#ui)
 - [Conclusion](#conclusion)
     - [Insights & Findings](#insights)
@@ -44,10 +43,10 @@ This uncertainty poses a significant risk for investors, traders, and businesses
 
 ### Our Solution  <a class="anchor" id="solution"></a>
 
-Our solution involves using advanced data science techniques to create a predictive model for exchange rates between the US dollar and ten major currencies. We plan to leverage historical exchange rate data, economic indicators, and sentiment analysis from financial news to build a comprehensive feature set.
+Our solution involves using advanced data science techniques to create a predictive model for exchange rates between the US dollar and ten major currencies. We plan to leverage historical exchange rate data to predict future direction of Close rates of USD.
 
 ### Objectives <a class="anchor" id="objective"></a>
-The main objective is to develop a robust and reliable predictive model for exchange rates between the US dollar and major global currencies. We aim to leverage the power of data science to analyze historical trends, economic indicators, providing accurate forecasts that can inform financial decisions. By achieving this, we hope to reduce the uncertainty and risk associated with currency fluctuations, enabling stakeholders to make more informed and strategic choices in their financial planning and investments.
+The main objective is to develop a robust and reliable predictive model for exchange rates between the US dollar and major global currencies. We aim to leverage the power of data science to analyze historical trends, economic indicators, providing accurate forecasts that can inform financial decisions. By achieving this, we hope to reduce the uncertainty and risk associated with currency fluctuations, enabling stakeholders to make more informed and strategic choices in their financial planning and investments. As a first step, the focus will be on analyzing the currency pair CAD=X (which captures the fluctuations of USD to CAD exchange rates).
 
 ### Potential Impact <a class="anchor" id="impact"></a>
 The potential impact of our solution is significant, as accurate predictions of exchange rates can have far-reaching benefits. For investors and traders, it means better-informed decisions that can lead to increased profits and reduced losses. For businesses engaged in international trade, it can lead to more effective hedging strategies, optimized pricing, and improved financial planning. 
@@ -97,7 +96,6 @@ The dataset can be found on Kaggle [Here](https://www.kaggle.com/datasets/pavank
 - Advanced modeling
 
 ### Data Cleaning / Preprocessing <a class="anchor" id="cleaning"></a>
-
 This step will clean and preprocess the data to handle missing values, outliers, and normalize the data for better model performance. This will be an iterative process through the sprints.
 
 ### Exploratory Data Analysis <a class="anchor" id="eda"></a>
@@ -112,15 +110,17 @@ Upcoming in future sprint
 Upcoming in future sprint
 
 ### Model Development <a class="anchor" id="develop"></a>
-Upcoming in future sprint
+- Baseline modeling
+The first baseline model chosen based on EDA was to conduct polynomial regression of degree 2 and 3.
+- Non-linear modeling
+For the first non-linear modeling, Time Series analysis was conducted to explore the relationship of the Close rates with Time.
+- Advanced modeling
+For advanced modeling, Decision Trees and Random Forest models were explored to make predictions.
 
-### Model Interpretation <a class="anchor" id="interpret"></a>
+### Model Evaluation <a class="anchor" id="eval"></a>
 Upcoming in future sprint
 
 ### Feature Selection <a class="anchor" id="select"></a>
-Upcoming in future sprint
-
-### Model Deployment <a class="anchor" id="deploy"></a>
 Upcoming in future sprint
 
 ##  Conclusion  <a class="anchor" id="conclusion"></a>

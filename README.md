@@ -19,8 +19,7 @@
     - [Feature Engineering](#engine)
     - [Feature Selection](#select)
     - [Model Development](#develop)
-    - [Model Evaluation](#eval) 
-    - [User Interface Development](#ui)
+    - [Model Evaluation](#eval)
 - [Conclusion](#conclusion)
     - [Insights & Findings](#insights)
     - [Key Takeaways](#takeaways)
@@ -107,7 +106,10 @@ This step will clean and preprocess the data to handle missing values, outliers,
 Upcoming in future sprint
 
 ### Feature Engineering <a class="anchor" id="engine"></a>
-Upcoming in future sprint
+Time Series
+    - Percent Change - captured percent change between each day's Close rates for trend detection, volatility analysis.
+Decision Trees and Random Forest
+    - Moving Average - 5-Day, 10-Day and 50-Day Moving Average features were engineered to capture short-term, intermediate-term and long-term trends.
 
 ### Model Development <a class="anchor" id="develop"></a>
 - Baseline modeling
@@ -118,13 +120,21 @@ For the first non-linear modeling, Time Series analysis was conducted to explore
 For advanced modeling, Decision Trees and Random Forest models were explored to make predictions.
 
 ### Model Evaluation <a class="anchor" id="eval"></a>
-Upcoming in future sprint
+|`Models`|`R-Squared`|`RMSE`|`MAE`|
+|---|:---:|:---:|:---:|
+|`Polynomial Regression (Baseline)`|``|`%`|
+|`Time Series`|``|`%`|
+|`SARIMA`|``|`%`|
+|`Decision Tree`|``|`%`|
+|`Random Forest`|``|`%`|
 
 ### Feature Selection <a class="anchor" id="select"></a>
-Upcoming in future sprint
+Features engineered during the analysis for respective models:
+- Time Series - percent change, moving average
+- Decision Trees and Random Forest - Moving average (5-day, 10-day and 50-day moving average)
 
 ##  Conclusion  <a class="anchor" id="conclusion"></a>
-Upcoming in future sprint
+The following sections give a all-round findings and key takeaways of this analysis.
 
 ### Insights & Findings <a class="anchor" id="insights"></a>
 Upcoming in future sprint

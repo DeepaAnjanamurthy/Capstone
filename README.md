@@ -123,13 +123,14 @@ For the first non-linear modeling, Time Series analysis was conducted to explore
 For advanced modeling, Decision Trees and Random Forest models were explored to make predictions.
 
 ### Model Evaluation <a class="anchor" id="eval"></a>
-|`Models`|`R-Squared`|`RMSE`|`MAE`|
+|`Models`|`R-Squared`|`RMSE`|
 |---|:---:|:---:|:---:|
-|`Polynomial Regression (Baseline)`|``|`%`|
-|`Time Series`|``|`%`|
-|`SARIMA`|``|`%`|
-|`Decision Tree`|``|`%`|
-|`Random Forest`|``|`%`|
+|`Polynomial Regression: degree 2(Baseline)`|`0.658`|`0.27`|
+|`Polynomial Regression: degree 3(Baseline)`|`0.848`|`0.322`|
+|`SARIMA (2022)`|`NA`|`0.006`|
+|`SARIMA ('2021)`|`NA`|`0.007`|
+|`Decision Tree`|`0.95`|`0.0029`|
+|`Random Forest`|`0.99`|`0.00016`|
 
 ##  Conclusion  <a class="anchor" id="conclusion"></a>
 The following sections give a all-round findings and key takeaways of this analysis.

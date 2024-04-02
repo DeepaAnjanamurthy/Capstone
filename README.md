@@ -22,7 +22,6 @@
     - [Model Evaluation](#eval)
 - [Conclusion](#conclusion)
     - [Insights & Findings](#insights)
-    - [Key Takeaways](#takeaways)
     - [Future Directions](#nextsteps)
     - [Final Thoughts](#thoughts)
 
@@ -126,19 +125,23 @@ For advanced modeling, Decision Trees and Random Forest models were explored to 
 |Model|R-squared|RMSE|
 |:---|:---:|:---|
 |Polynomial Regression (degree 2)|0.658|0.27||
+|Polynomial Regression (degree 3)|0.848|0.322||
+|SARIMA (2022)|NA|0.006||
+|SARIMA (2021)|NA|0.007||
+|Decision Tree|0.95|0.0029||
+|SARIMA (2021)|0.99|0.00016||
 
 ##  Conclusion  <a class="anchor" id="conclusion"></a>
-The following sections give a all-round findings and key takeaways of this analysis.
+The following sections give all-round findings and key takeaways of this analysis.
 
 ### Insights & Findings <a class="anchor" id="insights"></a>
-Upcoming in future sprint
-
-### Key Takeaways <a class="anchor" id="takeaways"></a>
-Upcoming in future sprint
+Time Series model would be best to help predict the dataset and feature combination
 
 ### Future Directions <a class="anchor" id="nextsteps"></a>
-- To explore other currency pair in the dataset to find patterns and trends to explore similarities or differences
-- To explore models used in the industry to gain insight into possible comparison in approach to exchange rate predictions
+- To explore other currency pairs in the dataset to find patterns and trends to explore similarities or differences
+- To explore models used in the industry to gain insight into possible comparisons in approach to exchange rate predictions
 
 ### Final Thoughts <a class="anchor" id="thoughts"></a>
-Upcoming in future sprint
+The exchange rate predictions are a challenging analysis to conduct due to various factors, namely, the volatility of the rate changes, confounding variables causing the volatility, and the highly sensitive numeric values. The currency pair USD to CAD analysis proved challenging for advanced models such as decision trees and random forest due to the minute numerical value changes and strong base predictor variables, leading to possible overfitting and inability to generalize the trends well.
+
+Research in academia appears to favour Time Series models such as ARIMA and neural network models for advanced predictions. A similar future direction of analysis would provide further insight into the data and make future predictions.

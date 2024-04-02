@@ -69,8 +69,8 @@ The currency pairs included in this dataset are:
 - USD to SGD (SGD=X)
 
 ### Data Dictionary <a class="anchor" id="data-dict"></a>
-|Column|Data Type|Description|Remarks/Examples|
-|:---|:---:|:---|:---|
+|Column|Data Type|Description|
+|:---|:---:|:---|
 |`Ticker`|`str`|The currency pair being represented.||
 |`Date`|`str`|The date in YYYY-MM-DD format.||
 |`Open`|`float`|The opening exchange rate of the day.||
